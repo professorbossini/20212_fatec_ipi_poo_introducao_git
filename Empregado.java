@@ -6,6 +6,18 @@ public class Empregado{
     private double comissao;
     private double bonus;
 
+    public void setSalario (double salario){
+        this.salario = salario;
+    }
+
+    public void setComissao (double comissao){
+        this.comissao = comissao;
+    }
+
+    public void setBonus (double bonus){
+        this.bonus = bonus;
+    }
+
     public void setTipo (int tipo){
         this.tipo = tipo;
     }
